@@ -1,0 +1,35 @@
+From dc8f1593661325ebf8b56d9c8035f21a118d1c7e Mon Sep 17 00:00:00 2001
+From: Jas sharma <91935368+CreateJas@users.noreply.github.com>
+Date: Mon, 20 Feb 2023 23:25:34 +0530
+Subject: [PATCH 3/3] Add files via upload
+
+---
+ public/manifest.json | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ create mode 100644 public/manifest.json
+
+diff --git a/public/manifest.json b/public/manifest.json
+new file mode 100644
+index 0000000..d35771b
+--- /dev/null
++++ b/public/manifest.json
+@@ -0,0 +1,15 @@
++{
++    "short_name": "React App",
++    "name": "Create React App Sample",
++    "icons": [
++      {
++        "src": "favicon.ico",
++        "sizes": "64x64 32x32 24x24 16x16",
++        "type": "image/x-icon"
++      }
++    ],
++    "start_url": ".",
++    "display": "standalone",
++    "theme_color": "#000000",
++    "background_color": "#ffffff"
++  }
+\ No newline at end of file
+-- 
+2.25.1
+
